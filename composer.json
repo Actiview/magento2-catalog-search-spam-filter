@@ -1,0 +1,28 @@
+{
+  "name": "actiview/magento2-catalog-search-spam-filter",
+  "description": "Magento 2 honeypot spam prevention",
+  "keywords": [
+    "magento2",
+    "spam"
+  ],
+  "type": "magento2-module",
+  "license": "OSL-3.0",
+  "authors": [
+    {
+      "name": "Rik Willems"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "magento/framework": ">=100.1.0",
+    "magento/module-catalog-search": ">=100.1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Actiview\\CatalogSearchSpamFilter\\": "src/"
+    },
+    "files": [
+      "src/registration.php"
+    ]
+  }
+}

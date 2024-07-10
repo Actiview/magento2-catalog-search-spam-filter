@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
-    <event name="controller_action_predispatch">
+    <event name="controller_action_predispatch_catalogsearch_result_index">
         <observer name="Actiview_CatalogSearchSpamFilter::controller_action_predispatch" instance="Actiview\CatalogSearchSpamFilter\Observer\ControllerActionPredispatchObserver" />
     </event>
 </config>

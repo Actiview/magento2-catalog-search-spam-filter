@@ -55,10 +55,6 @@ class ControllerActionPredispatchObserver implements ObserverInterface
             return false;
         }
 
-        if ($request->getFullActionName() !== 'catalogsearch_result_index') {
-            return false;
-        }
-
         return true;
     }
 }
